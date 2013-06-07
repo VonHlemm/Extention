@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Er föstudagur?",
+  "description": "This extension shows if today is friday.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "good_mark.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://erfostudagur.is/"
+  ]
+}
